@@ -1737,6 +1737,14 @@ input:hover, input:focus, input:focus-visible, input:focus-within {
   margin-bottom: 30px;
 }
 
+.section-profile .data-private strong,
+.section-profile .prof-exp strong {
+  font-weight: 400;
+  color: #33434F;
+  font-size: 14px;
+  line-height: 16px;
+}
+
 .section-profile .social-holder {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1957,6 +1965,30 @@ input:hover, input:focus, input:focus-visible, input:focus-within {
   }
 }
 
+.popup-info .head-help {
+  font-size: 14px;
+  line-height: 16px;
+  color: #389FE7;
+  text-decoration: none;
+  padding-left: 22px;
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.popup-info .head-help:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  border: solid #389FE7;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
 .popup-info input {
   width: 100%;
 }
@@ -1985,6 +2017,7 @@ input:hover, input:focus, input:focus-visible, input:focus-within {
 
 .popup-info .popup-head {
   margin-bottom: 16px;
+  font-weight: 700;
   font-size: 28px;
   line-height: 33px;
   text-align: center;
