@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
   
@@ -41,19 +42,34 @@
       <div class="container">
         <div class="info-doctor">
           <div class="info-holder">
-            <div class="img-holder">
-              <img src="image/page-doctor.png" alt="">
+            <div class="img-holder vip">
+              <div class="holder-vip">
+                <img src="image/page-doctor.png" alt="">
+                <img src="image/vip-icon.svg" class="vip-icon" alt="">
+              </div>
             </div>
             <div class="main-info">
               <div class="left">
-                <div class="name vip">
+                <div class="name">
                   Новицкая Елена Михайловна
-                  <img src="image/vip-icon.svg" alt="">
+
+                  <div class="icon-info rating">
+                    10
+                  </div>
                 </div>
                 <address class="address">
                   <img src="image/address-icon.svg" alt="">
                   Одесса ул. Кольцова,14а 
                 </address>
+                <div class="sec-info d-n-desk">
+                  <div class="work-time">
+                    Стаж работы
+                    <span class="br years">11 лет</span>
+                  </div>
+                  <div class="reviews-holder">
+                     <span>Отзывы: 432</span> 
+                  </div>
+                </div>
                 <ul class="work-list">
                   <li>
                     Липоскульптура
@@ -70,13 +86,10 @@
                 </ul>
               </div>
               <div class="right">
-                <div class="sec-info">
+                <div class="sec-info d-n-mob">
                   <div class="work-time">
                     Стаж работы
                     <span class="br years">11 лет</span>
-                  </div>
-                  <div class="icon-info rating">
-                    10
                   </div>
                   <div class="reviews-holder">
                      <span>Отзывы: 432</span> 

@@ -31,7 +31,7 @@ function filterShow() {
 // lightbox init
 function initLightbox() {
 	jQuery('a.lightbox, a[rel*="lightbox"]').fancybox({
-		padding: 30,             // padding внутри лайтбокса
+		padding: 0,             // padding внутри лайтбокса
 		helpers: {
 			overlay: {
 				css: {

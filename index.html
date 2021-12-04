@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
   
@@ -37,14 +38,20 @@
         </div>
       </div>
     </header>
-    <div class="container-fluid">
-      <div class="banner">
-        <picture class="picture">
-          <source media="(min-width: 500px)" srcset="image/banner.jpg">
-          <img alt="img" data-srcset="image/banner-mob.png" srcset="image/banner-mob.png">
-        </picture>
-      </div>
-    </div>
+    
+      <a href="#" class="banner" style="background-color: #f39ea2;">
+        <div class="container-fluid">
+          <div class="banner-wrap">
+            <h1>Легко найти</h1>
+            <div class="banner-text">
+              Все клиники эстетической медицины – у нас на сайте
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="image/banner-img.png" alt="">
+          </div>
+        </div>
+      </a>
     <section class="about">
       <div class="container">
         <div class="tabs-wrapper mb-1">
@@ -379,14 +386,14 @@
 
   <div class="popup-holder">
     <div id="popup1" class="popup-info">
-      <a href="#" class="head-help" hidden>
+      <a href="#" class="head-help">
         <i class="icon=back"></i>
         Вы не пациент?
       </a>
         <div class="popup-head">
           Авторизация
         </div>
-        <div class="popup-body">
+        <div class="popup-body hidden">
           <div class="input-holder error">
             <input type="text" placeholder="Ваш email">
             <span class="error"> Текст для ошибки</span>
@@ -426,7 +433,7 @@
             </div>
         </div>
         </div>
-        <div class="popup-body">
+        <div class="popup-body hidden">
           <div class="who-text">
             Кто вы?
           </div>
